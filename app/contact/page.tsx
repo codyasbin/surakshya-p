@@ -140,7 +140,7 @@ export default function ContactPage() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="block w-full px-4 py-3 bg-gray-100 text-gray-700 placeholder-gray-400 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-cyan-600"
-                placeholder="Your Phone (optional)"
+                placeholder="Your Phone "
               />
             </div>
 
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 value={formData.company}
                 onChange={handleChange}
                 className="block w-full px-4 py-3 bg-gray-100 text-gray-700 placeholder-gray-400 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-cyan-600"
-                placeholder="Your Company (optional)"
+                placeholder="Your Company "
               />
             </div>
 
@@ -183,7 +183,7 @@ export default function ContactPage() {
                 value={formData.jobTitle}
                 onChange={handleChange}
                 className="block w-full px-4 py-3 bg-gray-100 text-gray-700 placeholder-gray-400 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-cyan-600"
-                placeholder="Your Job Title (optional)"
+                placeholder="Your Job Title "
               />
             </div>
 
